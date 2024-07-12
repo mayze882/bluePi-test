@@ -23,7 +23,7 @@ Generate random item name
     ${currentDateTime} =    Get Current Date
     ${dateTime} =    Convert Date     ${currentDateTime}    result_format=%Y%m%d-%H%M%S
     ${taskName}    Catenate    TestItem-${dateTime}
-    [Return]    ${taskName}
+    RETURN    ${taskName}
 
 Add new item
     [Arguments]    ${itemName}
