@@ -10,7 +10,7 @@ Test Teardown    Close Browser
 *** Test Cases ***
 TC_E2E_001
     [Documentation]    To verify that system able to add/complete/delete any tasks correctly
-    [Tags]    Regression
+    [Tags]    e2e
     toDoList.Verify component on To Do list page
 
     # Add 3 tasks into to do list
